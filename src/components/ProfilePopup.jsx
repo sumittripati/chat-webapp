@@ -29,11 +29,11 @@ const ProfilePopup = () => {
                   <div>
                     <ul>
                       <li className="flex items-center gap-2 pt-3"><img src="./info.png" alt="overview" /><span className='cursor-pointer'>Overview</span></li>
-                      <li className="flex items-center gap-2 pt-4"><img src="./Video.png" alt="media" /><span className='cursor-pointer'>Media</span></li>
+                      {/* <li className="flex items-center gap-2 pt-4"><img src="./Video.png" alt="media" /><span className='cursor-pointer'>Media</span></li>
                       <li className="flex items-center gap-2 pt-4"><img src="./Filedoc.png" alt="files" /><span className='cursor-pointer'>Files</span></li>
                       <li className="flex items-center gap-2 pt-4"><img src="./links.png" alt="links" /><span className='cursor-pointer'>Links</span></li>
                       <li className="flex items-center gap-2 pt-4"><img src="./Group.png" alt="groups" /><span className='cursor-pointer'>Groups</span></li>
-                      <li className="flex items-center gap-2 pt-4"><img src="./Help.png" alt="Help" /><span className='cursor-pointer'>Help</span></li>
+                      <li className="flex items-center gap-2 pt-4"><img src="./Help.png" alt="Help" /><span className='cursor-pointer'>Help</span></li> */}
                     </ul>
                   </div>
                   <div>
