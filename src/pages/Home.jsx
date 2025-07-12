@@ -287,7 +287,7 @@
 // import React, { useState } from 'react';
 import { FaPhone } from "react-icons/fa6";
 import { BsEmojiSmile } from "react-icons/bs";
-
+import ProfilePopup from '../components/ProfilePopup';
 import { useState } from 'react';
 import Usersprofile from '../components/Usersprofile';
 
@@ -348,7 +348,8 @@ const Home = () => {
           <img src="./phone.png" alt="phone-icon" className="text-xs pb-3" />
           <img src="./search.png" alt="search-icon" className="text-xs" />
         </div>
-        <button className='items-center pb-4 pl-2'><span className="text-xs">👤</span></button>
+        {/* <button className='items-center pb-4 pl-2'> <ProfilePopup /></button> */}
+         <button className='items-center pb-4 pl-2'><span className="text-xs"><ProfilePopup /></span></button>
       </div>
 
       {/* User List */}
