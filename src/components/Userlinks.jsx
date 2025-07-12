@@ -1,23 +1,3 @@
-// import React from 'react'
-
-// const Userlinks = () => {
-//   return (
-//     <div>
-//         <div className="flex flex-col gap-1.5 w-full border-1 border-gray-200 rounded-md p-4 h-124">
-//             <div>
-//                 <div><img src="./links.png" alt="send-link" /></div>
-//                 <div>
-//                     <div>Post 1</div>
-//                     <div>249kb, <span>JPG File</span></div>
-//                 </div>
-//             </div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Userlinks
-
 
 import React from 'react';
 
