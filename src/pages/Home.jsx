@@ -1300,12 +1300,12 @@ const Home = () => {
           <div className='flex items-center justify-between'>
             <div className='flex gap-2'>
               <h2 className="text-lg font-semibold">Messages</h2>
-              <IoIosArrowDown className='mt-2' />
+              <IoIosArrowDown className='mt-2'/>
               <p>12</p>
             </div>
             <div className='flex items-center gap-1'>
               <img src="./Filter_big.png" alt="filter" />
-              <img src="./Iconsax.png" alt="plus" />
+              <img src="./Iconsax.png" alt="plus"  className="absolute right-2 bottom-[60px] min-[620px]:static min-[620px]:bottom-auto min-[620px]:right-auto" />
             </div>
           </div>
         </div>
@@ -1394,10 +1394,8 @@ const Home = () => {
             </div>
           ))}
         </div>
-
-        <div className="p-3 flex items-center gap-2 bg-white 
-          min-[620px]:static min-[620px]:block fixed bottom-0 w-full z-10 border-t">
-          <div className='flex gap-3'>
+          <div className="p-3 flex items-center gap-3 bg-white fixed bottom-0 w-full z-10 border-t min-[620px]:static">
+          <div className='flex gap-2'>
             <BsEmojiSmile className='mt-1' />
             <img src="./send-file.png" alt="file" className='size-4 mt-1' />
           </div>

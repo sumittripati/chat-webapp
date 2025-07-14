@@ -274,8 +274,6 @@ const ProfilePopup = () => {
         </span>
       </button>
 
-      {/* Optional Profile Summary */}
-      {/* <div className='absolute bottom-0 bg-gray-100 w-96 ml-8 cursor-pointer' onClick={togglePopup}> */}
       <div 
   className='absolute bottom-0 bg-gray-100 w-96 ml-8 cursor-pointer hidden min-[625px]:block' onClick={togglePopup}>
         <div className="flex flex-col">
