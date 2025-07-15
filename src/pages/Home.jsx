@@ -1284,8 +1284,8 @@ const Home = () => {
       {/* Left Sidebar */}
       <div className="w-[40px] justify-between flex-col hidden min-[620px]:flex">
         <div className='flex flex-col items-center gap-4 pt-6'>
-          <img src="./message.png" alt="message-icon" className="text-xs pb-3" />
-          <img src="./phone.png" alt="phone-icon" className="text-xs pb-3" />
+          <img src="./message.png" alt="message-icon" className="text-xs pb-3 cursor-pointer"/>
+          <img src="./phone.png" alt="phone-icon" className="text-xs pb-3 cursor-pointer" />
         </div>
         <button className='items-center pb-4 pl-2'>
           <span className="text-xs"><ProfilePopup /></span>
@@ -1301,11 +1301,11 @@ const Home = () => {
             <div className='flex gap-2'>
               <h2 className="text-lg font-semibold">Messages</h2>
               <IoIosArrowDown className='mt-2'/>
-              <p>12</p>
+              <p className='cursor-pointer'>12</p>
             </div>
             <div className='flex items-center gap-1'>
-              <img src="./Filter_big.png" alt="filter" />
-              <img src="./Iconsax.png" alt="plus"  className="absolute right-2 bottom-[60px] min-[620px]:static min-[620px]:bottom-auto min-[620px]:right-auto" />
+              <img src="./Filter_big.png" alt="filter" className='cursor-pointer'/>
+              <img src="./Iconsax.png" alt="plus"  className="cursor-pointer absolute right-2 bottom-[60px] min-[620px]:static min-[620px]:bottom-auto min-[620px]:right-auto" />
             </div>
           </div>
         </div>
@@ -1370,7 +1370,7 @@ const Home = () => {
             </div>
           </div>
 
-          <button className="bg-blue-100 px-3 py-1 text-sm rounded-md text-blue-600 hover:bg-blue-200 flex items-center">
+          <button className="bg-blue-100 px-3 py-1 text-sm rounded-md text-blue-600 hover:bg-blue-200 flex items-center cursor-pointer">
             <FaPhone className='mr-1' /> Call
           </button>
         </div>
