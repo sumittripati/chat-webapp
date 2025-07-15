@@ -290,18 +290,20 @@ const ProfilePopup = () => {
       {/* Popup Overlay */}
       {isOpen && (
         <div className="fixed inset-0 backdrop-blur-sm bg-opacity-2 flex items-center justify-center z-5">
-          <div className="w-[700px] bg-white rounded-lg shadow-lg p-6 relative">
+          {/* <div className="w-[700px] bg-white rounded-lg shadow-lg p-6 relative border-2 min-[625px]:h-100vh "> */}
+          <div className="w-[700px] bg-white rounded-lg shadow-lg p-6 relative border-2 h-screen min-[625px]:h-auto">
+
             {/* Close Button */}
             <button className="absolute top-2 right-2 text-gray-500 hover:text-black text-lg cursor-pointer" onClick={() => setIsOpen(false)}><RxCross2 /></button>
 
             <div className="flex gap-8">
               {/* Sidebar Menu */}
-              <div className='flex flex-col justify-between'>
+              {/* <div className='flex flex-col justify-between min-[620px]:block hidden'>
                 <ul>
                   <li className="flex items-center gap-2 pt-3"><img src="./info.png" alt="overview" /><span className='cursor-pointer'>Overview</span></li>
                 </ul>
                 <div className="flex items-center gap-2"><img src="./profile.png" alt="profile" /><span className='cursor-pointer'>Profile</span></div>
-              </div>
+              </div> */}
 
               {/* Profile Content */}
               <div className="flex flex-col gap-4 w-full border border-gray-200 rounded-md p-4 h-auto">
@@ -366,7 +368,7 @@ const ProfilePopup = () => {
                 </div>
 
                 {/* Logout */}
-                <button onClick={() => alert('Logging out...')} className="mt-4 px-4 py-2 bg-blue-100 text-blue-600 rounded hover:bg-blue-200 w-30 font-bold cursor-pointer">
+                <button onClick={() => alert('Logging out...')} className="mt-4 px-4 py-2 bg-blue-100 text-blue-600 rounded hover:bg-blue-200 w-30 font-bold cursor-pointer min-[625px]:w-full">
                   Log Out
                 </button>
               </div>

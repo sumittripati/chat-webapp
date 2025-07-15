@@ -1350,9 +1350,7 @@ const Home = () => {
               const isDesktop = window.innerWidth >= 620;
               if (isDesktop || showChatArea) {
                 setShowProfile(true);
-              }
-            }}
-          >
+              }  }}>
             <div className="block min-[620px]:hidden">
               <button
                 onClick={(e) => {
@@ -1394,7 +1392,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-          <div className="p-3 flex items-center gap-3 bg-white fixed bottom-0 w-full z-10 border-t min-[620px]:static">
+          <div className="p-3 flex items-center gap-3 bg-white fixed bottom-0 w-full z-10 min-[620px]:static">
           <div className='flex gap-2'>
             <BsEmojiSmile className='mt-1' />
             <img src="./send-file.png" alt="file" className='size-4 mt-1' />
@@ -1412,7 +1410,7 @@ const Home = () => {
       </main>
 
       {!showChatArea && (
-        <div className="min-[620px]:hidden flex w-full justify-around bg-white border-t py-2 fixed bottom-0 left-0 z-10">
+        <div className="min-[620px]:hidden flex w-full justify-around bg-white py-2 fixed bottom-0 left-0 z-10">
           <img src="./message.png" alt="message-icon" className="w-6 h-6" />
           <img src="./phone.png" alt="phone-icon" className="w-6 h-6" />
           <ProfilePopup />
